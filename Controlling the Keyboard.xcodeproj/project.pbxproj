@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB598C11BFA68B20063225C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB598C01BFA68B20063225C /* AppDelegate.swift */; };
+		FAB598C31BFA68B20063225C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB598C21BFA68B20063225C /* ViewController.swift */; };
+		FAB598C61BFA68B20063225C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB598C41BFA68B20063225C /* Main.storyboard */; };
+		FAB598C81BFA68B20063225C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB598C71BFA68B20063225C /* Assets.xcassets */; };
+		FAB598CB1BFA68B20063225C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB598C91BFA68B20063225C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAB598BD1BFA68B20063225C /* Controlling the Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Controlling the Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB598C01BFA68B20063225C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAB598C21BFA68B20063225C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAB598C51BFA68B20063225C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB598C71BFA68B20063225C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB598CA1BFA68B20063225C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB598CC1BFA68B20063225C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB598BA1BFA68B20063225C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB598B41BFA68B20063225C = {
+			isa = PBXGroup;
+			children = (
+				FAB598BF1BFA68B20063225C /* Controlling the Keyboard */,
+				FAB598BE1BFA68B20063225C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB598BE1BFA68B20063225C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB598BD1BFA68B20063225C /* Controlling the Keyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB598BF1BFA68B20063225C /* Controlling the Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FAB598C01BFA68B20063225C /* AppDelegate.swift */,
+				FAB598C21BFA68B20063225C /* ViewController.swift */,
+				FAB598C41BFA68B20063225C /* Main.storyboard */,
+				FAB598C71BFA68B20063225C /* Assets.xcassets */,
+				FAB598C91BFA68B20063225C /* LaunchScreen.storyboard */,
+				FAB598CC1BFA68B20063225C /* Info.plist */,
+			);
+			path = "Controlling the Keyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB598BC1BFA68B20063225C /* Controlling the Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB598CF1BFA68B20063225C /* Build configuration list for PBXNativeTarget "Controlling the Keyboard" */;
+			buildPhases = (
+				FAB598B91BFA68B20063225C /* Sources */,
+				FAB598BA1BFA68B20063225C /* Frameworks */,
+				FAB598BB1BFA68B20063225C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Controlling the Keyboard";
+			productName = "Controlling the Keyboard";
+			productReference = FAB598BD1BFA68B20063225C /* Controlling the Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB598B51BFA68B20063225C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jared Allen";
+				TargetAttributes = {
+					FAB598BC1BFA68B20063225C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8W8VUK9UZ3;
+					};
+				};
+			};
+			buildConfigurationList = FAB598B81BFA68B20063225C /* Build configuration list for PBXProject "Controlling the Keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB598B41BFA68B20063225C;
+			productRefGroup = FAB598BE1BFA68B20063225C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB598BC1BFA68B20063225C /* Controlling the Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB598BB1BFA68B20063225C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB598CB1BFA68B20063225C /* LaunchScreen.storyboard in Resources */,
+				FAB598C81BFA68B20063225C /* Assets.xcassets in Resources */,
+				FAB598C61BFA68B20063225C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB598B91BFA68B20063225C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB598C31BFA68B20063225C /* ViewController.swift in Sources */,
+				FAB598C11BFA68B20063225C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB598C41BFA68B20063225C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB598C51BFA68B20063225C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB598C91BFA68B20063225C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB598CA1BFA68B20063225C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB598CD1BFA68B20063225C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAB598CE1BFA68B20063225C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB598D01BFA68B20063225C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Controlling the Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaredallen.Controlling-the-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB598D11BFA68B20063225C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Controlling the Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaredallen.Controlling-the-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB598B81BFA68B20063225C /* Build configuration list for PBXProject "Controlling the Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB598CD1BFA68B20063225C /* Debug */,
+				FAB598CE1BFA68B20063225C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB598CF1BFA68B20063225C /* Build configuration list for PBXNativeTarget "Controlling the Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB598D01BFA68B20063225C /* Debug */,
+				FAB598D11BFA68B20063225C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB598B51BFA68B20063225C /* Project object */;
+}
